@@ -1,0 +1,48 @@
+{
+    "IsToxicZoneActive": 1,
+    "StaticToxicAreaLocation": [
+        {
+            "ToxicZoneStatut": "Breng",
+            "X": 1220.6,
+            "Y": 11814.4,
+            "Radius": 300.0,
+            "X1": -1.0,
+            "Y1": -1.0,
+            "X2": -1.0,
+            "Y2": -1.0,
+            "IsSquareZone": 0,
+            "IsMsgActive": 1,
+            "MsgEnterZone": "Вы вошли в токсичную зону",
+            "MsgExitZone": "Вы покинули в токсичную зону",
+            "IsOnlyGasMask": 1,
+            "IsLootActive": 1,
+            "ContainerName": "ToxicCase",
+            "NumbCratePerTime": 1,
+            "MaxLoot": 8,
+            "ParticlesPosition": [
+                
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1220.6,
+                        3.1,
+                        11814.4
+                    ]
+                }
+            ],
+            "ToxicCratePosition": [],
+            "CreatureList": [
+                {
+                    "CreatureName": "Animal_CanisLupus_Grey",
+                    "Max": 7,
+                    "ProbToSpawn": 1.0
+                },
+                {
+                    "CreatureName": "Animal_UrsusArctos",
+                    "Max": 1,
+                    "ProbToSpawn": 1.0
+                }
+            ]
+        }
+    ]
+}
